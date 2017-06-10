@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页 | Textbook Mango</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <script src="js/index.js" defer="defer"></script>
+</head>
+<body>
+
+<!-- Menus -->
+<div class="bigContainer1">
+    <div class="nav1wrapper">
+        <a href="#"><img class="logo" src="images/logo.png" alt=""></a>
+
+        <div class="toMainLogo" onclick="window.location='index.html';"></div>
+        <ul>
+            <li class="mainLevel" id="signIn"><span>登入</span>
+
+                <div id="secLevelSignIn">
+                    <ul>
+                        <li class="secLevel"><input type="text" value="" placeholder="请输入用户名和Email"></li>
+                        <li class="secLevel"><input type="password" value="" placeholder="请输入密码"></li>
+                        <li class="secLevel"><a href="#">
+                            <button class="button1">登入</button>
+                        </a></li>
+                        <li class="secLevel"><a href="#">
+                            <button class="button2">登入 <img src="images/facebookSmall.png" alt=""/></button>
+                        </a></li>
+                        <li class="secLevel"><a href="#"><p id="ForgotPassword">忘记密码？</p></a></li>
+                        <li class="secLevel"><img src="images/line.png" id="line" alt=""/></li>
+                        <li class="secLevel"><a href="#">
+                            <button class="button3">新建账号</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mainLevel" id="language"><span>Language</span>
+
+                <div id="secLevelLanguage">
+                    <ul>
+                        <li class="secLevel"><a href="#">
+                            <button class="button1"><img src="images/EnglishLogo.png" alt=""/> English</button>
+                        </a></li>
+                        <li class="secLevel"><a href="#">
+                            <button class="button1"><img src="images/ChineseLogo.png" alt=""/> Chinese</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mainLevel" id="more"><span>More</span>
+
+                <div id="secLevelMore">
+                    <ul>
+                        <li class="secLevel"><a href="#">
+                            <button class="button1">About</button>
+                        </a></li>
+                        <li class="secLevel"><a href="#">
+                            <button class="button1">FAQ</button>
+                        </a></li>
+                        <li class="secLevel"><a href="#">
+                            <button class="button1">Contact</button>
+                        </a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mainLevel" id="cart"><span>Cart</span></li>
+            <li class="mainLevel"><a href="#"><img class="searchImg" src="images/search.png" alt=""/></a></li>
+        </ul>
+    </div>
+</div>
+
+<!--Feature-->
+<div class="bigContainer2">
+    <!--rent book page-->
+    <div class="rentBook">
+        <div class="feature">
+            <img class="mangoBig" src="images/mangoBig.png" alt=""/>
+
+            <div class="searchBar1">
+                <p>Rent textbooks with up to 80%<br/> off RRP and FREE shipping!</p>
+                <img src="images/searchText1.png" alt=""/>
+                <input id="inputBook" type="text" value="Enter title, author or ISBN...">
+
+                <div class="button1"><a href="#"><img src="images/searchbutton1.png" alt=""/></a></div>
+            </div>
+
+            <div class="searchBar2">
+                <p>or Buy fancy stationery</p>
+                <img src="images/searchText2.png" alt=""/>
+                <input id="searchBar2" class="inputSta" type="text" value="Enter stationer name">
+
+                <div class="button2"><a href="#"><img src="images/searchbutton2.png" alt=""/></a></div>
+            </div>
+        </div>
+    </div>
+
+    <!--mangoShop page-->
+    <div class="feature mangoShop">
+        <img class="mangoBig" src="images/mangoShopping.png" alt=""/>
+
+        <div class="searchBar3">
+            <p>Need new stylish stationery?<br/>
+                Use our new mango basket!</p>
+            <img src="images/searchText3.png" alt=""/>
+            <input id="searchBar3" class="inputSta" type="text" value="Enter stationer name">
+
+            <div class="button3"><a href="#"><img src="images/searchbutton1.png" alt=""/></a></div>
+        </div>
+
+    </div>
+
+    <!--tradeCentre page-->
+    <div class="tradeCentre">
+        <div class="feature">
+            <img class="mangoBig" src="images/mangoTrade.png" alt=""/>
+
+            <div class="searchBar3">
+                <p>Trade the textbooks<br/> you don't need for<br/> the money you do!</p>
+            </div>
+        </div>
+    </div>
+
+    <!--online education page-->
+    <div class="onlineEducation">
+        <div class="feature">
+            <img class="mangoBig" src="images/mangoOnlineEducation.png" alt=""/>
+
+            <div class="searchBar3">
+                <p>Take your learning online.<br/>It's the way of the future.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Feature menu-->
+<div class="bigContainer3">
+    <ul>
+        <li class="selected"><img src="images/angle.png" alt=""/><a href="#">Rent Textbooks</a></li>
+        <li class="notSelect"><img src="images/angleBlue.png" alt=""/><a class="blueTxt" href="#">Mango Basket</a>
+
+            <div class="boxBlue"></div>
+        </li>
+        <li class="notSelect"><img src="images/angle.png" alt=""/><a href="#">Trade Centre</a></li>
+        <li class="notSelect"><img src="images/angle.png" alt=""/><a href="#">Online Education</a></li>
+    </ul>
+</div>
+
+<!--rent book page-->
+<div class="rentBook">
+    <!--advertisement box-->
+    <div class="bigContainer4">
+        <div class="adv1">
+            <div class="rollBox">
+                <a href="javascript:;" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()"
+                   class="img1" hidefocus="true"></a>
+
+                <div class="Cont" id="ISL_Cont">
+                    <div class="ScrCont">
+                        <div id="List1">
+                            <!-- 图片列表 begin -->
+                            <div class="pic">
+                                <a href="#" target="_blank"><img src="images/adv1/item1.jpg" width="174" height="174"/></a>
+                                <a href="#" target="_blank">pen001</a>
+                            </div>
+                            <div class="pic">
+                                <a href="#" target="_blank"><img src="images/adv1/item2.jpg" width="174" height="174"/></a>
+                                <a href="#" target="_blank">pen002</a>
+                            </div>
+                            <div class="pic">
+                                <a href="#" target="_blank"><img src="images/adv1/item3.jpg" width="174" height="174"/></a>
+                                <a href="#" target="_blank">pen003</a>
+                            </div>
+                            <div class="pic">
+                                <a href="#" target="_blank"><img src="images/adv1/item4.jpg" width="174" height="174"/></a>
+                                <a href="#" target="_blank">pen004</a>
+                            </div>
+                            <div class="pic">
+                                <a href="#" target="_blank"><img src="images/adv1/item5.jpg" width="174" height="174"/></a>
+                                <a href="#" target="_blank">pen005</a>
+                            </div>
+                            <div class="pic">
+                                <a href="#" target="_blank"><img src="images/adv1/item6.jpg" width="174" height="174"/></a>
+                                <a href="#" target="_blank">pen006</a>
+                            </div>
+                            <!-- 图片列表 end -->
+                        </div>
+                        <div id="List2"></div>
+                    </div>
+                </div>
+                <a href="javascript:;" onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()"
+                   class="img2" hidefocus="true"></a>
+            </div>
+        </div>
+        <div class="adv2">
+            <div class="line"></div>
+            <!--image list-->
+            <ul class="picBox">
+                <li class="shown"><span>The textbooks you need, while you need them.<br>
+                    Rent textbooks for a semester and send them back!</span></li>
+                <li>
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/>
+                        Australian Corporate Law </p>
+
+                    <p><img src="images/adv2/companyAccounting.jpg" alt=""/><br/>
+                        Company <br>Accounting </p>
+
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/><br/>
+                        Australian Corporate Law </p>
+
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/>
+                        Australian Corporate Law </p>
+
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/>
+                        Australian Corporate Law </p>
+                </li>
+                <li>
+                    <p><img src="images/adv2/companyAccounting.jpg" alt=""/>
+                        Company <br>Accounting </p>
+
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/>
+                        Australian Corporate Law </p>
+
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/>
+                        Australian Corporate Law </p>
+
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/>
+                        Australian Corporate Law </p>
+
+                    <p><img src="images/adv2/AustralianCorporateLaw.jpg" alt=""/>
+                        Australian Corporate Law </p>
+                </li>
+
+            </ul>
+            <div class="picButton">
+                <ul>
+                    <li><a href="#"><img src="images/grayDote.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/grayDote.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/grayDote.png" alt=""/></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--rent-read-return-->
+    <div class="bigContainer5">
+        <table>
+            <tr class="titleText">
+                <th><p>Rent</p></th>
+                <th><p>Read</p></th>
+                <th><p>Return</p></th>
+            </tr>
+            <tr class="explanation">
+                <td><p>Search our extensive database for the textbooks you need. Place your order, pay online, and we'll
+                    have your textbooks right on their way.</p></td>
+                <td><p>Read the textbooks to your heart's desire, and feel free to highlight the important parts or
+                    write notes in pencil.</p></td>
+                <td><p>Return once you have finished reading your textbook, simply retun it before the due date. If you
+                    want to keep your book, please contact us.</p></td>
+            </tr>
+            <tr>
+                <td><p><img src="images/rent.png" alt=""/></p></td>
+                <td><p><img src="images/read.png" alt=""/></p></td>
+                <td><p><img src="images/return.png" alt=""/></p></td>
+            </tr>
+            <tr>
+                <td><p class="dotLine">.......................</p></td>
+                <td><p class="dotLine">.......................</p></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><p class="dotLine Short">.........</p></td>
+                <td><p class="dotLine Short">.........</p></td>
+                <td></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <!--Explanation-->
+    <div class="bigContainer6">
+        <table>
+            <tr class="titleText">
+                <th><p>Free delivery in Adelaide & Melbourne</p></th>
+                <th><p>Largest range of textbooks</p></th>
+                <th><p>No more wasting money</p></th>
+            </tr>
+            <tr class="explanation">
+                <td><p>We are a proudly Australian company based in Melbourne and Adelaide, and are happy to offer free
+                    delivery on all orders to our Australian customers.</p></td>
+                <td><p>We are sure to have the textbook you're looking for. Put the details of your desired textbook
+                    into our search engine and put us to the test.</p></td>
+                <td><p>Stop buying textbooks you're never going to need once the semester is over. Renting is the way to
+                    go.</p></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--mangoshop page-->
+<div class="mangoShop">
+    <div class="mangoShopContainer">
+        <div class="mangoShopAdv">
+            <p><img src="images/blue-adv-pic.png" alt=""/></p>
+        </div>
+        <div class="mangoShopSpecial">
+            <img src="images/today's-special.png" alt=""/>
+            <button>All</button>
+            <button class="onFocus">Special</button>
+            <button>For Office</button>
+            <button>Storage</button>
+        </div>
+        <div class="line"></div>
+        <div class="shopFeature">
+            <img src="images/menuBlue.png" alt=""/>
+            <span>Products Category</span>
+
+            <p>sort by relevant</p>
+        </div>
+        <div class="line"></div>
+        <div class="shopItem"></div>
+    </div>
+</div>
+<!--tradeCentre page-->
+<div class="tradeCentre">
+    <div class="tradeCentreTXT">
+        <div>
+            <h1>Requirements</h1>
+
+            <p>Participating buyers and sellers must agree to the Terms and Conditions.</p>
+
+            <h2>To Sell Textbooks</h2>
+
+            <p>1. Fill out the Sellers’ Application and bring the books to Textbook Mango office.<br/>
+                2. Books submitted would be listed on Textbook Mango Trade Centre website for free.<br/>
+                3. Get paid for the books you sold!</p>
+
+            <h2>To Buy Textbooks</h2>
+
+            <p>Simply turn up to the office during the business hour (Mon-Fri, 9am-5pm) or order and pay on website.</p>
+
+            <h2>Cost/Reimbursement</h2>
+
+            <p>Listing with Textbook Mango Trade Centre is absolutely FREE. Only when your book successfully sells, we
+                will charge a
+                transaction fee of 8% based on selling price per book sold.</p>
+
+            <p>All reimbursements will be done via internet banking and deposited into the bank account specified in the
+                Sellers’ Application .</p>
+        </div>
+    </div>
+</div>
+
+<!--onlineEducation page-->
+<div class="onlineEducation">
+    <div class="tradeCentreTXT">
+        <div>
+            <h1>Comming soon...</h1>
+        </div>
+    </div>
+</div>
+
+<!--facebook-->
+<div class="bigContainer7">
+    <div class="facebook">
+        <img src="images/fb.png" alt=""/>
+        <div class="facebookAds">
+            <img src="images/facebookAds/car.jpg" alt=""/>
+        </div>
+        <div class="facebookLike">
+            <p>Like us on facebook</p>
+
+            <div class="fb-like" data-href="https://www.facebook.com/textbookmango/" data-layout="button"
+                 data-action="like" data-show-faces="true" data-share="true"></div>
+            <button onclick="window.open('https://www.facebook.com/textbookmango/?fref=ts')">Visit Our Facebook Page</button>
+        </div>
+    </div>
+</div>
+
+<!--linkList-->
+<div class="bigContainer8">
+    <table>
+        <tr>
+            <th>Products</th>
+            <th>Helpful Links</th>
+            <th>Textbook Mango</th>
+            <th>Connect With Us</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Rent Books</li>
+                    <li>MangoShop</li>
+                    <li>Online Education</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Trade Centre</li>
+                    <li>Return Books</li>
+                    <li>Refund Policy</li>
+                    <li>FAQ</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>About</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Sina Weibo</li>
+                    <li>WeChat</li>
+                </ul>
+            </td>
+        </tr>
+
+    </table>
+    <div class="footerLogo"><img src="images/footer_logo.png" alt=""/></div>
+    <div class="footerLogo">
+        Copyright © 2017 TBMANGO PTY LTD.<br>
+        ABN: 12 168 215 781
+    </div>
+</div>
+<script>
+
+</script>
+</body>
+</html>

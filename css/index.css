@@ -1,0 +1,1004 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*main switch*/
+.rentBook {
+    /*display: none;*/
+}
+
+.mangoShop {
+    display: none;
+}
+
+.tradeCentre{
+    display: none;
+}
+.onlineEducation{
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+
+/*Menus*/
+.bigContainer1 {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: -20px;
+    background-color: #ff5960;
+    z-index: 5;
+}
+
+.nav1wrapper {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.nav1wrapper .logo {
+    float: left;
+    position: relative;
+    height: 100px;
+    top: 30px;
+    left: 20px;
+    z-index: 2;
+}
+.nav1wrapper .toMainLogo{
+    background-image: url(../images/toMainLogo.png);
+    width: 90px;
+    height: 80px;
+    float: left;
+    position: absolute;
+    top: 40px;
+    left: -38px;
+    display: none;
+}
+.nav1wrapper .toMainLogo:hover{
+    cursor: pointer;
+}
+
+.nav1wrapper .logo:hover {
+    cursor: pointer;
+}
+
+.nav1wrapper ul {
+    float: right;
+    position: relative;
+    top: 42px;
+}
+
+.nav1wrapper .mainLevel {
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+    font-size: 22px;
+    color: white;
+}
+
+.nav1wrapper .mainLevel:hover {
+    cursor: pointer;
+    color: #febc3c;
+}
+
+/*Sign In*/
+#signIn {
+    position: relative;
+}
+
+#secLevelSignIn {
+    width: 204px;
+    height: 319px;
+    position: absolute;
+    left: -70px;
+    /*border-radius: 3px;*/
+    /*box-shadow: 0px 0px 5px black inset;*/
+    background-image: url(../images/loginBox.png);
+    display: none;
+}
+
+/*language*/
+#language {
+    position: relative;
+}
+
+#secLevelLanguage {
+    width: 204px;
+    height: 132px;
+    position: absolute;
+    left: -55px;
+    /*border-radius: 3px;*/
+    /*box-shadow: 0px 0px 5px black inset;*/
+    background-image: url(../images/languageBox.png);
+    display: none;
+}
+
+#secLevelLanguage img {
+    position: relative;
+    left: -30px;
+}
+
+/*more*/
+#more {
+    position: relative;
+}
+
+#secLevelMore {
+    width: 204px;
+    height: 177px;
+    position: absolute;
+    left: -75px;
+    /*border-radius: 3px;*/
+    /*box-shadow: 0px 0px 5px black inset;*/
+    background-image: url(../images/moreBox.png);
+    display: none;
+}
+
+/*cart*/
+#cart {
+    display: none;
+}
+
+.nav1wrapper .mainLevel div:hover {
+    cursor: default;
+}
+
+.nav1wrapper .mainLevel ul {
+    position: absolute;
+    left: 15px;
+    top: 30px;
+
+}
+
+.nav1wrapper .secLevel {
+    margin-bottom: 5px;
+    color: #c8c8c8;
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav1wrapper .secLevel input {
+    height: 36px;
+    width: 160px;
+    border-radius: 5px;
+    border: solid 1px #c8c8c8;
+    padding-left: 10px;
+}
+
+.nav1wrapper .secLevel button {
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    border: solid 1px #c8c8c8;
+    padding-left: 10px;
+    line-height: 30px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.nav1wrapper .secLevel button:hover {
+    cursor: pointer;
+}
+
+.nav1wrapper .secLevel button img {
+    position: relative;
+    top: 5px;
+}
+
+.secLevel .button1 {
+    background-color: #ff5960;
+}
+
+.secLevel .button2 {
+    background-color: #3b5aa5;
+}
+
+.secLevel .button3 {
+    background-color: #5cde19;
+}
+
+#ForgotPassword:hover {
+    cursor: pointer;
+}
+
+#line {
+    position: relative;
+    top: -10px;
+
+}
+
+.nav1wrapper .searchImg {
+    height: 22px;
+    position: relative;
+    top: 2px;
+}
+
+/*Feature*/
+.bigContainer2 {
+    width: 100%;
+    background: url(../images/backgroundImg.jpg) no-repeat bottom center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.feature {
+    width: 1200px;
+    height: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 70px;
+}
+
+.feature p {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 0;
+}
+
+.mangoBig {
+    z-index: 1;
+    height: 450px;
+    float: left;
+    position: relative;
+    top: 50px;
+}
+
+/*searchBar1*/
+.searchBar1 {
+    z-index: 1;
+    position: relative;
+    top: 60px;
+    left: -120px;
+}
+
+.searchBar1 img {
+    position: relative;
+    left: 80px;
+    width: 620px;
+}
+
+.searchBar1 input {
+    font-size: 30px;
+    position: relative;
+    top: -140px;
+    left: 120px;
+    width: 550px;
+    border: none;
+    background: none;
+    color: white;
+    outline: medium;
+}
+
+.bigContainer2 .button1 img {
+    width: 100px;
+    position: relative;
+    top: -210px;
+    left: 670px;
+
+}
+
+/*searchBar2*/
+.searchBar2 {
+    position: relative;
+    top: -110px;
+    left: -170px;
+}
+
+.searchBar2 img {
+    position: relative;
+    top: -120px;
+    left: 580px;
+    width: 620px;
+}
+
+.searchBar2 input {
+    z-index: 2;
+    font-size: 30px;
+    position: relative;
+    top: -155px;
+    left: -10px;
+    width: 380px;
+    border: none;
+    background: none;
+    color: white;
+    outline: medium;
+}
+
+.bigContainer2 .button2 img {
+    z-index: 3;
+    width: 80px;
+    position: relative;
+    top: -215px;
+    left: 525px;
+
+}
+
+/*searchBar3*/
+.searchBar3 {
+    z-index: 0;
+    position: absolute;
+    top: 120px;
+    left:380px;
+    width: 620px;
+}
+
+.searchBar3 img {
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 520px;
+}
+
+.searchBar3 input {
+    font-size: 30px;
+    position: relative;
+    top: -55px;
+    left: 120px;
+    width: 450px;
+    border: none;
+    background: none;
+    color: white;
+    outline: medium;
+}
+
+.bigContainer2 .button3 img {
+    width: 100px;
+    position: relative;
+    top: -130px;
+    left: 520px;
+
+}
+
+/*Feature menu*/
+.bigContainer3 {
+    width: 100%;
+    background-color: #febc3c;
+}
+
+.bigContainer3 ul {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 600;
+
+}
+
+.bigContainer3 li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    height: 40px;
+    background-color: #febc3c;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.bigContainer3 .notSelect:hover {
+    background-color: #fea741;
+}
+
+.bigContainer3 .selected {
+    height: 40px;
+    color: white;
+    background-color: #ff5960;
+    position: relative;
+}
+
+.bigContainer3 .selected .boxBlue{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    background-color: #5baee3;
+    z-index: 0;
+}
+.bigContainer3 .selected .blueTxt {
+    font-weight: 600;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+.bigContainer3 .selected a {
+    font-weight: 600;
+    color: white;
+}
+
+.bigContainer3 a {
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: 400;
+    display: block;
+}
+
+.bigContainer3 img {
+   position: absolute;
+    top: -12px;
+    left: 50%;
+    display: none;
+}
+
+/*advertisement box*/
+.bigContainer4 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bigContainer4 .adv1 {
+    margin: 0 auto;
+    height: 312px;
+    width: 1200px;
+
+}
+
+.bigContainer4 .adv2 {
+    margin: 0 auto;
+    height: 250px;
+    width: 1200px;
+}
+
+/*rent-read-return*/
+.bigContainer5 {
+    width: 100%;
+    background-color: #fee8e6;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+
+.bigContainer5 table {
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+
+.bigContainer5 td {
+
+    /*border: solid 1px;*/
+}
+
+.bigContainer5 p {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.bigContainer5 th {
+    font-size: 34px;
+    font-weight: 600;
+    color: #ff5960;
+    height: 140px;
+}
+
+.dotLine {
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: -520px;
+    left: 50%;
+    color: white;
+}
+
+.Short {
+    top: -220px;
+}
+
+/*Explanation*/
+.bigContainer6 {
+    width: 100%;
+    font-size: 20px;
+    padding-bottom: 40px;
+
+}
+
+.bigContainer6 table {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bigContainer6 td {
+    vertical-align: top;
+}
+
+.bigContainer6 p {
+    width: 345px;
+    margin: 0 auto;
+}
+
+.bigContainer6 th {
+    font-size: 34px;
+    color: #ff5960;
+    height: 140px;
+    padding-top: 40px;
+    vertical-align: middle;
+}
+
+.titleText p {
+    width: 359px;
+}
+
+.explanation {
+    vertical-align: top;
+    height: 159px;
+}
+
+/*facebook*/
+.bigContainer7 {
+    width: 100%;
+    background-color: #3b5aa5;
+    height: 350px;
+}
+
+.facebook{
+    width: 1200px;
+    margin: 0 auto;
+}
+.facebook img{
+position: relative;
+    top:30px;
+}
+.facebook .picButton{
+    display: inline-block;
+}
+/*.facebookAds{*/
+    /*display: inline-block;*/
+/*}*/
+/*.facebookAds img{*/
+    /*position: relative;*/
+    /*top: 100px;*/
+    /*left: 40px;*/
+
+/*}*/
+
+
+
+.facebookLike{
+    display: inline-block;
+    float: right;
+    padding-top: 100px;
+text-align: center;
+}
+.facebook p{
+    color: white;
+    font-weight: 600;
+}
+.facebookLike button{
+    display: block;
+    width: 220px;
+    height: 70px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: white;
+    background-color: #3B5AA5;
+    border: 12px solid #637Ec8;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px black;
+}
+.facebookLike button:hover{
+    cursor: pointer;
+}
+
+/*linkList*/
+.bigContainer8 {
+    width: 100%;
+    background-color: #ff5960;
+    height: 513px;
+}
+
+.bigContainer8 table {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bigContainer8 th {
+    padding-top: 65px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+
+}
+
+.bigContainer8 td {
+    width: 300px;
+    padding-top: 15px;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+}
+
+.bigContainer8 li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footerLogo {
+    width: 1200px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 15px;
+}
+
+/*mango shop css*/
+.mangoShopContainer{
+    width: 100%;
+}
+.mangoShopAdv{
+    width: 100%;
+    background-color: #5baee3;
+}
+.mangoShopAdv p{
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mangoShopAdv img{
+    margin-top:20px;
+}
+
+.mangoShopSpecial{
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.mangoShopSpecial img{
+    display: block;
+    margin: 0 auto;
+    padding-top:50px;
+}
+.mangoShopSpecial button{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 2px #ccc;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5baee3;
+}
+.mangoShopSpecial button:hover{
+    color: white;
+    border: solid 2px #5baee3;
+    background-color:  #5baee3;
+}
+.mangoShopSpecial .onFocus{
+    color: white;
+    border: solid 2px #5baee3;
+    background-color:  #5baee3;
+}
+.mangoShopContainer .line{
+    width: 1200px;
+    height: 1px;
+    margin: 0 auto;
+    background-image: url(../images/line.png);
+}
+.shopItem{
+    width: 1200px;
+    /*height: 600px;*/
+    margin: 30px auto 0 auto;
+}
+.shopItem .innerBox {
+    width: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+.shopItem li{
+    display: inline-block;
+    width: 16.2%;
+    height: 250px;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    margin-bottom: 5px;
+}
+.shopItem span{
+    font-weight: 600;
+}
+
+.shopFeature{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px 0;
+    vertical-align: middle;
+    color: #5baee3;
+    font-weight: 600;
+}
+.shopFeature img{
+    margin:0 10px;
+}
+.shopFeature p{
+    float: right;
+}
+
+/*tradeCentre css*/
+.tradeCentreTXT{
+    width: 1200px;
+    margin: 0 auto;
+}
+.tradeCentreTXT div{
+    padding-bottom: 200px;
+}
+.tradeCentreTXT h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #ff5960;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.tradeCentreTXT h2{
+    font-weight: 400;
+    font-size: 25px;
+    color: #ff5960;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.tradeCentreTXT p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+/*onlineEducation*/
+.onlineEducation h1{
+    text-align: center;
+}
+
+
+
+
+
+/*adv1 ������ҹ�����Ʒչʾ����*/
+.adv1 {
+    z-index: 4;
+    width: 100%;
+}
+
+.rollBox img {
+    border: none;
+}
+
+.rollBox {
+    width: 1200px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.rollBox .Cont {
+    width: 1098px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.rollBox .scrCont {
+    /*width: 10000000px;*/
+    width: 1097px;
+    height:220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.rollBox .Cont .pic {
+    width: 163px;
+    float: left;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.rollBox .Cont .pic img {
+    padding: 4px;
+    background: #fff;
+    /*border: 1px solid #ccc;*/
+    border-right: 1px solid #eeeeee;
+    display: block;
+    margin: 0 auto;
+}
+
+.rollBox .Cont .pic p {
+    line-height: 26px;
+    color: #505050;
+}
+
+.rollBox .Cont a:link, .rollBox .Cont a:visited {
+    color: #626466;
+    text-decoration: none;
+}
+
+.rollBox .Cont a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+.rollBox #List1{
+    float: left;
+    width: 10000%;
+    position: absolute;
+    left: 0;
+
+}
+
+.img1, .img2, .Cont {
+    float: left;
+}
+
+.img1, .img2 {
+    width: 51px;
+    height: 63px;
+    display: block;
+    cursor: pointer;
+    margin-top: 80px;
+}
+
+.img1 {
+    background-image: url(../images/arrow-l-normal.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img1:hover {
+    background-image: url(../images/arrow-l-active.png);
+}
+
+.img2 {
+    background-image: url(../images/arrow-r-normal.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.img2:hover {
+    background-image: url(../images/arrow-r-active.png);
+}
+
+/*adv2 ���Բ���Ʒչʾ����*/
+.adv2{
+}
+
+.adv2 .line{
+    width: 100%;
+    height: 1px;
+    background-image: url(../images/line.png);
+}
+.picBox{
+    height: 230px;
+    overflow: hidden;
+}
+.picBox ul{
+    margin: 0;
+    padding: 0;
+}
+.picBox li{
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    height: 220px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+}
+
+.picBox li span{
+    line-height: 55px;
+    font-size: 40px;
+    color: #ff5960;
+    display: block;
+    padding-top: 50px;
+}
+.picBox li img{
+    width: 100px;
+    /*position: relative;*/
+    /*top: 30px;*/
+}
+.picBox li p{
+    width: 160px;
+    display: inline-block;
+    margin: 0 1%;
+}
+.picButton{
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+}
+.picButton .selected{
+    opacity: 0.4;
+}
+.picButton ul{
+    text-align: center;
+}
+.picButton li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    opacity: 0.2;
+}
+.picButton li img{
+
+}
+.picButton li img:hover{
+    opacity: 0.4;
+}
+
+/*facebook��� ���Բ���Ʒչʾ����*/
+.facebookPicBox{
+    /*width: 700px;*/
+    /*height: 300px;*/
+    display: block;
+    position: absolute;
+    /*overflow: hidden;*/
+}
+.facebookPicBox ul{
+    margin: 0;
+    padding: 0;
+}
+.facebookPicBox li{
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    height: 220px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    left:-30px;
+}
+
+.facebookPicBox li img{
+    /*position: relative;*/
+    /*top: 30px;*/
+    width: 700px;
+}
+.facebookPicButton{
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+}
+.facebookPicButton .selected{
+    opacity: 0.4;
+}
+.facebookPicButton ul{
+    text-align: center;
+}
+.facebookPicButton li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    opacity: 0.2;
+}
+
+.facebookPicButton li img:hover{
+    opacity: 0.4;
+}
+

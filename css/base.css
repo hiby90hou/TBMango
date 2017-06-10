@@ -1,0 +1,61 @@
+@media screen and (max-device-width: 1200px)and (min-device-width: 1024px) {
+    .nav1wrapper, .feature,.bigContainer3 ul,.bigContainer4 .adv2,.bigContainer5 table,
+    .mangoShopAdv p,.mangoShopSpecial,.mangoShopContainer .line,.shopItem,.shopFeature,
+    .tradeCentreTXT,.bigContainer6 table,.facebook,.bigContainer8 table,.footerLogo {
+        width: 100%;
+    }
+    .bigContainer6 p{
+        width: 100%;
+    }
+    .titleText p{
+        width: 100%;
+    }
+    .bigContainer4 .adv1{
+        display: none;
+    }
+    .dotLine{
+        display: none;
+    }
+    .searchBar1 p{
+        position: relative;
+        width: 1200px;
+    }
+    .searchBar2 p{
+        position: relative;
+        width: 1200px;
+    }
+    .shopItem li{
+        width: 24.5%;
+    }
+}
+/*��Ļ�ߴ�С��1024����Ҫ�û��Լ�����������*/
+@media screen and (max-device-width: 1023px) {
+    .nav1wrapper, .feature,.bigContainer3 ul,.bigContainer4 .adv2,.bigContainer5 table,
+    .mangoShopAdv p,.mangoShopSpecial,.mangoShopContainer .line,.shopItem,.shopFeature,
+    .tradeCentreTXT,.bigContainer6 table,.facebook,.bigContainer8 table,.footerLogo {
+        width: 1024px;
+    }
+    .bigContainer6 p{
+        width: 100%;
+    }
+    .titleText p{
+        width: 100%;
+    }
+    .bigContainer4 .adv1{
+        display: none;
+    }
+    .dotLine{
+        display: none;
+    }
+    .searchBar1 p{
+        position: relative;
+        width: 1200px;
+    }
+    .searchBar2 p{
+        position: relative;
+        width: 1200px;
+    }
+    .shopItem li{
+        width: 24.5%;
+    }
+}
